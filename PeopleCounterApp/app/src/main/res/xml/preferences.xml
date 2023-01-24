@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/preference_title_notifications"
+        android:key="preference_category_notifications">
+        <!-- A 'parent' preference, which enables/disables child preferences (below)
+        when checked/unchecked. -->
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="key_notifications_new_message"
+            android:title="@string/preference_title_new_message_notifications">
+        </SwitchPreference>
+        <!-- Allows the user to choose a ringtone in the 'notification' category. -->
+        <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+        <!-- NOTE: RingtonePreference's summary should be set to its value by the activity code. -->
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:dependency="key_notifications_new_message"
+            android:key="key_notifications_new_message_ringtone"
+            android:ringtoneType="notification"
+            android:title="@string/preference_title_ringtone">
+        </RingtonePreference>
+        <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+        <SwitchPreference
+            android:defaultValue="true"
+            android:dependency="key_notifications_new_message"
+            android:key="key_notifications_new_message_vibrate"
+            android:title="@string/preference_title_vibrate">
+        </SwitchPreference>
+        <ListPreference
+            android:dependency="key_notifications_new_message"
+            android:title="@string/preference_title_light_color"
+            android:key="key_notifications_new_message_light_color"
+            android:defaultValue="#0000ff"
+            android:entries="@array/notification_light_color_names"
+            android:entryValues="@array/notification_light_color_values" >
+        </ListPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

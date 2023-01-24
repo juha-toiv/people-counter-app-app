@@ -1,0 +1,81 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">People Counter</string>
+
+    <!-- Strings related to login -->
+    <string name="login_form_prompt_email">Email Address</string>
+    <string name="login_form_prompt_password">Password</string>
+    <string name="login_form_action_sign_in">Sign in or register</string>
+    <string name="login_form_action_sign_in_short">Sign in</string>
+    <string name="login_form_action_sign_out_short">Sign out</string>
+    <string name="login_form_error_invalid_email">This email address is invalid.</string>
+    <string name="login_form_error_invalid_password">This password is too short.</string>
+    <string name="login_form_error_incorrect_password">This password is incorrect.</string>
+    <string name="login_form_error_email_bad_format">The email address is badly formatted.</string>
+    <string name="login_form_error_user_does_not_exist">User does not exist.</string>
+    <string name="login_form_permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="login_form_error_field_required">This field is required.</string>
+    <string name="login_form_sign_in_failed">Sign in failed.</string>
+
+    <!-- Strings related to device list -->
+    <string name="device_list_no_devices_found">No devices found</string>
+    <string name="device_list_title">People Counter Devices</string>
+
+    <!-- Strings related to device status -->
+    <string name="all_device_status_online">Online</string>
+    <string name="all_device_status_offline">Offline</string>
+
+    <!-- Strings related to device details -->
+    <string name="device_detail_number_of_visitors">Number of Visitors</string>
+    <string name="device_detail_title">People Counter</string>
+    <string name="device_detail_device_not_found">Device not found</string>
+    <string name="date">Date</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="this_week">This Week</string>
+    <string name="this_month">This Month</string>
+    <string name="this_year">This Year</string>
+    <string name="last_7_days">Last 7 Days</string>
+    <string name="last_30_days">Last 30 Days</string>
+    <string name="all_time">All Time</string>
+    <string name="last_week">Last Week</string>
+    <string name="last_month">Last Month</string>
+    <string name="last_hour">Last Hour</string>
+    <string name="number_0">0</string>
+    <string name="device_detail_no_visitors">No visitors</string>
+    <string name="device_detail_last_visitor">Last Visitor</string>
+
+    <!-- Strings related to push notifications -->
+    <string name="notification_detected_motion_text">Motion detected</string>
+    <string name="notification_channe_id_default">default</string>
+    <string name="notification_channel_name">People Counter Notification Channel</string>
+    <string name="notification_channel_desc">Notification channel for People Counter app</string>
+    <string name="notification_receiveNotificationsTopic">counter_updates</string>
+    <string name="notification_data_key_device_id">device_id</string>
+
+    <!-- Strings related to actions -->
+    <string name="action_device_list">People Counter Devices</string>
+
+    <!-- Strings related to errors -->
+    <string name="all_no_internet_connection">No internet connection</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to settings / preferences -->
+    <string name="action_settings">Settings</string>
+    <string name="preference_title_notifications">Notifications</string>
+    <string name="preference_title_new_message_notifications">Receive message notifications</string>
+    <string name="preference_title_ringtone">Ringtone</string>
+    <string name="preference_ringtone_silent">Silent</string>
+    <string name="preference_title_vibrate">Vibrate</string>
+    <string name="preference_title_light_color">Light color</string>
+    <string name="preference_no_color">None</string>
+
+    <!-- Strings related to color names-->
+    <string name="color_name_blue">Blue</string>
+    <string name="color_name_green">Green</string>
+    <string name="color_name_red">Red</string>
+    <string name="color_name_yellow">Yellow</string>
+    <string name="color_name_white">White</string>
+
+</resources>
